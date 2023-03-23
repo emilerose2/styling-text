@@ -4,3 +4,67 @@ body {
     line-height: 1.5;
     font-size: 1.125rem;
 }
+
+
+img {
+    width: 100%;
+}
+
+
+figcaption, .article-category, .sub-title, .author time {
+    font-family: Open Sans;
+}
+
+
+article-category {
+    text-transform: uppercase;
+    font-size: .85rem;
+    border-bottom: 2px solid #ff3530
+    display: inline;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+    margin: inline;
+}
+
+
+sub-title {
+    font-weight: bold;
+}
+
+
+figcaption {
+    font-size: .85rem;
+    text-align: center;
+    font-style: italic;
+    color: #757577
+    
+}
+
+
+a:link {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff3530;
+}
+
+
+.author, time {
+    font-size: .85rem;
+}
+
+
+author {
+    margin-bottom: 0;
+}
+
+
+figure {
+    margin-bottom: 1.25em 0;
+}
